@@ -13,8 +13,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     $host = 'localhost';
-    $user_db = 'root'; 
-    $pass = '1504'; 
+    $user_db = 'phpmyadmin'; 
+    $pass = 'adm'; 
     $bank = 'login-page';  
 
     $con = mysqli_connect($host, $user_db, $pass, $bank);
